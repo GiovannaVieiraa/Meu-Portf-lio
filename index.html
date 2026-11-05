@@ -228,6 +228,26 @@
             font-size: 1.45rem;
         }
 
+        .course-partnership {
+            margin: -12px 0 18px;
+            color: var(--muted);
+            font-size: .92rem;
+        }
+
+        .certificate-badge {
+            display: inline-flex;
+            align-items: center;
+            margin: 0 0 18px;
+            padding: 7px 12px;
+            border-radius: 999px;
+            background: linear-gradient(135deg, var(--lavender), #f8edf1);
+            color: var(--plum-dark);
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .04em;
+            text-transform: uppercase;
+        }
+
         .course-list {
             display: grid;
             gap: 13px;
@@ -259,6 +279,26 @@
             font-size: .78rem;
             font-weight: 700;
             line-height: 1.5;
+        }
+
+        .senai-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 24px;
+            padding: 12px 18px;
+            border-radius: 999px;
+            background: var(--plum);
+            color: var(--white);
+            font-size: .88rem;
+            font-weight: 700;
+            text-decoration: none;
+            transition: background .2s ease, transform .2s ease;
+        }
+
+        .senai-button:hover {
+            background: var(--plum-dark);
+            transform: translateY(-2px);
         }
 
         .site-footer {
@@ -403,12 +443,15 @@
             <div class="course-grid">
                 <section class="course-card" aria-labelledby="afesu-titulo">
                     <h3 id="afesu-titulo">AFESU Morro Velho / SENAI</h3>
+                    <p class="course-partnership">Cursos realizados na AFESU Morro Velho em parceria com o SENAI.</p>
+                    <p class="certificate-badge">Certificado SENAI</p>
                     <ul class="course-list">
-                    <li>Operador de Microcomputador <span>160 horas</span></li>
-                    <li>Implantação de Redes Locais <span>48 horas</span></li>
-                    <li>Excel Básico com IA Generativa <span>20 horas</span></li>
-                    <li>Programação com IA Generativa <span>40 horas</span></li>
+                        <li>Operador de Microcomputador <span>160 horas</span></li>
+                        <li>Implantação de Redes Locais <span>48 horas</span></li>
+                        <li>Excel Básico com IA Generativa <span>20 horas</span></li>
+                        <li>Programação com IA Generativa <span>40 horas</span></li>
                     </ul>
+                    <a class="senai-button" href="https://www.sp.senai.br/unidade/leopoldina/" target="_blank" rel="noopener noreferrer">SAIBA MAIS SOBRE O SENAI</a>
                 </section>
 
                 <section class="course-card" aria-labelledby="wizard-titulo">
